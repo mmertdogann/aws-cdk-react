@@ -1,0 +1,43 @@
+{
+  "dev": {
+    "account": "787837163694",
+    "frankfurtRegion": "eu-central-1",
+    "virginiaRegion": "us-east-1",
+    "assetsBucket": {
+      "arn": "arn:aws:s3:::dev-mertawscdk.tk",
+      "name": "dev-mertawscdk.tk",
+      "region": "eu-central-1",
+      "regionalDomainName": "dev-mertawscdk.tk.s3.eu-central-1.amazonaws.com"
+    }
+  },
+  "test": {
+    "account": "787837163694",
+    "frankfurtRegion": "eu-central-1",
+    "virginiaRegion": "us-east-1",
+    "assetsBucket": {
+      "arn": "arn:aws:s3:::test-mertawscdk.tk",
+      "name": "test-mertawscdk.tk",
+      "region": "eu-central-1",
+      "regionalDomainName": "test-mertawscdk.tk.s3.eu-central-1.amazonaws.com"
+    }
+  },
+  "prod": {
+    "account": "787837163694",
+    "frankfurtRegion": "eu-central-1",
+    "virginiaRegion": "us-east-1",
+    "assetsBucket": {
+      "arn": "arn:aws:s3:::prod-mertawscdk.tk",
+      "name": "prod-mertawscdk.tk",
+      "region": "eu-central-1",
+      "regionalDomainName": "mertawscdk.tk.s3.eu-central-1.amazonaws.com"
+    }
+  },
+  "hosted-zone:account=787837163694:domainName=mertawscdk.tk:region=eu-central-1": {
+    "Id": "/hostedzone/Z03029251J1Q9P17XOQ4Y",
+    "Name": "mertawscdk.tk."
+  },
+  "hosted-zone:account=787837163694:domainName=mertawscdk.tk:region=us-east-1": {
+    "Id": "/hostedzone/Z03029251J1Q9P17XOQ4Y",
+    "Name": "mertawscdk.tk."
+  }
+}
