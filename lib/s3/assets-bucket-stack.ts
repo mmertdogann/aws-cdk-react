@@ -15,7 +15,7 @@ export class AssetsBucketStack extends cdk.Stack {
       websiteIndexDocument: 'index.html',
     });
 
-    //
+    // build stands for Single Page React App's build folder
     new s3Deployment.BucketDeployment(this, 'AssetsBucketDeployment', {
       sources: [s3Deployment.Source.asset('../build')],
       destinationBucket: bucket,
